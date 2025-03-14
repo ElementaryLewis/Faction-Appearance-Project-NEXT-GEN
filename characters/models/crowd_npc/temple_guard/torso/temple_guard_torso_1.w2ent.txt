@@ -1,0 +1,80 @@
+    CEntityTemplate #0 (CEntityTemplate) : 
+        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+            includes (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+                0 (handle:CEntityTemplate) : NULL
+            properOverrides (Bool) : true
+            entityObject (ptr:CEntity) : CEntity #1
+            flatCompiledData (array:Uint8) : # array:Uint8
+                CEntity #0 (CEntity) : PreviewEntity
+                    CEntity (CEntity) : PreviewEntity
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        streamingDistance (Uint8) : 255
+                        entityStaticFlags (EEntityStaticFlags) : 
+                        name (String) : "PreviewEntity"
+                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+                            0 (ptr:CComponent) : CMeshComponent #1
+                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                            0 (SEntityBufferType1) : 
+                                ComponentName (CName) : 
+                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+                CMeshComponent #1 (CMeshComponent) : temple_guard_1_model
+                    CMeshComponent (CMeshComponent) : temple_guard_1_model
+                        guid (CGUID) : f6fb5a41-eb8b-4405-a5c4-4c79cca48d8a
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "temple_guard_1_model"
+                        isStreamed (Bool) : false
+                        graphPositionX (Int16) : -446
+                        graphPositionY (Int16) : 192
+                        boundingBox (Box) : <Box>boundingBox
+                            Min (Vector) : <Vector>Min
+                                X (Float) : -0.2460
+                                Y (Float) : -0.2155
+                                Z (Float) : 0.8317
+                                W (Float) : 1.0000
+                            Max (Vector) : <Vector>Max
+                                X (Float) : 0.2445
+                                Y (Float) : 0.1872
+                                Z (Float) : 1.6963
+                                W (Float) : 1.0000
+                        drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows
+                        lightChannels (ELightChannel) : LC_Characters
+                        forceAutoHideDistance (Uint16) : 1000
+                        mesh (handle:CMesh) : characters/models/crowd_npc/temple_guard/torso/model/temple_guard_1.w2mesh
+            cookedEffectsVersion (Uint32) : 1
+            Unk1 (Uint32) : 0
+    CEntity #1 (CEntity) : 
+        CEntity (CEntity) : 
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDistance (Uint8) : 255
+            entityStaticFlags (EEntityStaticFlags) : 
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CMeshComponent #2
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+    CMeshComponent #2 (CMeshComponent) : temple_guard_1_model
+        CMeshComponent (CMeshComponent) : temple_guard_1_model
+            guid (CGUID) : f6fb5a41-eb8b-4405-a5c4-4c79cca48d8a
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "temple_guard_1_model"
+            isStreamed (Bool) : false
+            boundingBox (Box) : <Box>boundingBox
+                Min (Vector) : <Vector>Min
+                    X (Float) : -0.2460
+                    Y (Float) : -0.2155
+                    Z (Float) : 0.8317
+                    W (Float) : 1.0000
+                Max (Vector) : <Vector>Max
+                    X (Float) : 0.2445
+                    Y (Float) : 0.1872
+                    Z (Float) : 1.6963
+                    W (Float) : 1.0000
+            drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows
+            lightChannels (ELightChannel) : LC_Characters
+            forceAutoHideDistance (Uint16) : 1000
+            mesh (handle:CMesh) : characters/models/crowd_npc/temple_guard/torso/model/temple_guard_1.w2mesh

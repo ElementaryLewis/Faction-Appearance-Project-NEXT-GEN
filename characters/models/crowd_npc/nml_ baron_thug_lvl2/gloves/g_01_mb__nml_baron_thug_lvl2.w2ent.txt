@@ -1,0 +1,76 @@
+    CEntityTemplate #0 (CEntityTemplate) : 
+        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+            properOverrides (Bool) : true
+            entityObject (ptr:CEntity) : CEntity #1
+            flatCompiledData (array:Uint8) : # array:Uint8
+                CEntity #0 (CEntity) : PreviewEntity
+                    CEntity (CEntity) : PreviewEntity
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        entityStaticFlags (EEntityStaticFlags) : 
+                        name (String) : "PreviewEntity"
+                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+                            0 (ptr:CComponent) : CMeshComponent #1
+                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                            0 (SEntityBufferType1) : 
+                                ComponentName (CName) : 
+                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+                CMeshComponent #1 (CMeshComponent) : g_01_mb__nml_baron_thug_lvl2
+                    CMeshComponent (CMeshComponent) : g_01_mb__nml_baron_thug_lvl2
+                        guid (CGUID) : 15dc3959-2b20-4b1a-868a-632b8c1c32e2
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "g_01_mb__nml_baron_thug_lvl2"
+                        graphPositionX (Int16) : 132
+                        graphPositionY (Int16) : 188
+                        boundingBox (Box) : <Box>boundingBox
+                            Min (Vector) : <Vector>Min
+                                X (Float) : -0.7015
+                                Y (Float) : 0.0409
+                                Z (Float) : 1.2064
+                                W (Float) : 1.0000
+                            Max (Vector) : <Vector>Max
+                                X (Float) : 0.7015
+                                Y (Float) : 0.3440
+                                Z (Float) : 1.4388
+                                W (Float) : 1.0000
+                        drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows,DF_ForceHighestLOD
+                        lightChannels (ELightChannel) : LC_Characters
+                        forceLODLevel (Int32) : 0
+                        forceAutoHideDistance (Uint16) : 300
+                        mesh (handle:CMesh) : characters/models/crowd_npc/nml_ baron_thug_lvl2/gloves/model/g_01_mb__nml_baron_thug_lvl2.w2mesh
+            cookedEffectsVersion (Uint32) : 1
+            Unk1 (Uint32) : 0
+    CEntity #1 (CEntity) : 
+        CEntity (CEntity) : 
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            entityStaticFlags (EEntityStaticFlags) : 
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CMeshComponent #2
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+    CMeshComponent #2 (CMeshComponent) : g_01_mb__nml_baron_thug_lvl2
+        CMeshComponent (CMeshComponent) : g_01_mb__nml_baron_thug_lvl2
+            guid (CGUID) : 15dc3959-2b20-4b1a-868a-632b8c1c32e2
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "g_01_mb__nml_baron_thug_lvl2"
+            boundingBox (Box) : <Box>boundingBox
+                Min (Vector) : <Vector>Min
+                    X (Float) : -0.7015
+                    Y (Float) : 0.0409
+                    Z (Float) : 1.2064
+                    W (Float) : 1.0000
+                Max (Vector) : <Vector>Max
+                    X (Float) : 0.7015
+                    Y (Float) : 0.3440
+                    Z (Float) : 1.4388
+                    W (Float) : 1.0000
+            drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows,DF_ForceHighestLOD
+            lightChannels (ELightChannel) : LC_Characters
+            forceLODLevel (Int32) : 0
+            forceAutoHideDistance (Uint16) : 300
+            mesh (handle:CMesh) : characters/models/crowd_npc/nml_ baron_thug_lvl2/gloves/model/g_01_mb__nml_baron_thug_lvl2.w2mesh

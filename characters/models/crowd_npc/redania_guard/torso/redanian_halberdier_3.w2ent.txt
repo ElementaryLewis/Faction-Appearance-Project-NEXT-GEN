@@ -1,0 +1,414 @@
+    CEntityTemplate #0 (CEntityTemplate) : CItemEntity
+        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+            properOverrides (Bool) : true
+            entityClass (CName) : CItemEntity
+            entityObject (ptr:CEntity) : CItemEntity #1
+            flatCompiledData (array:Uint8) : # array:Uint8
+                CItemEntity #0 (CItemEntity) : PreviewEntity
+                    CItemEntity (CItemEntity) : PreviewEntity
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        streamingDistance (Uint8) : 14
+                        entityStaticFlags (EEntityStaticFlags) : 
+                        name (String) : "PreviewEntity"
+                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+                            0 (ptr:CComponent) : CMeshComponent #1
+                            1 (ptr:CComponent) : CMeshComponent #2
+                            2 (ptr:CComponent) : CMeshComponent #3
+                            3 (ptr:CComponent) : CClothComponent #4
+                            4 (ptr:CComponent) : CClothComponent #5
+                            5 (ptr:CComponent) : CMeshComponent #6
+                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                            0 (SEntityBufferType1) : 
+                                ComponentName (CName) : 
+                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+                CMeshComponent #1 (CMeshComponent) : i_01_mg__common
+                    CMeshComponent (CMeshComponent) : i_01_mg__common
+                        guid (CGUID) : bf50c633-1a0d-4e24-9a86-65f21bbd4fb4
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "i_01_mg__common"
+                        graphPositionX (Int16) : 147
+                        graphPositionY (Int16) : 427
+                        boundingBox (Box) : <Box>boundingBox
+                            Min (Vector) : <Vector>Min
+                                X (Float) : -0.2643
+                                Y (Float) : -0.2336
+                                Z (Float) : 0.9098
+                                W (Float) : 1.0000
+                            Max (Vector) : <Vector>Max
+                                X (Float) : 0.1968
+                                Y (Float) : 0.1484
+                                Z (Float) : 1.6460
+                                W (Float) : 1.0000
+                        drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows,DF_NoDissolves
+                        lightChannels (ELightChannel) : LC_Characters
+                        mesh (handle:CMesh) : characters/models/geralt/armor/armor_human__common/i_01_mg__common.w2mesh
+                CMeshComponent #2 (CMeshComponent) : i_02_mg__common
+                    CMeshComponent (CMeshComponent) : i_02_mg__common
+                        guid (CGUID) : 7c2f309e-95f2-4ed0-9dfd-d4161d85a99a
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "i_02_mg__common"
+                        graphPositionX (Int16) : 149
+                        graphPositionY (Int16) : 369
+                        boundingBox (Box) : <Box>boundingBox
+                            Min (Vector) : <Vector>Min
+                                X (Float) : 0.1427
+                                Y (Float) : 0.0194
+                                Z (Float) : 0.9427
+                                W (Float) : 1.0000
+                            Max (Vector) : <Vector>Max
+                                X (Float) : 0.2347
+                                Y (Float) : 0.0871
+                                Z (Float) : 1.1171
+                                W (Float) : 1.0000
+                        drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows,DF_NoDissolves
+                        lightChannels (ELightChannel) : LC_Characters
+                        mesh (handle:CMesh) : characters/models/geralt/armor/armor_human__common/i_02_mg__common.w2mesh
+                CMeshComponent #3 (CMeshComponent) : redanian_halberdier_3_model
+                    CMeshComponent (CMeshComponent) : redanian_halberdier_3_model
+                        guid (CGUID) : 6d77495b-7868-43c8-88f2-784162b98f41
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "redanian_halberdier_3_model"
+                        graphPositionX (Int16) : 151
+                        graphPositionY (Int16) : 473
+                        boundingBox (Box) : <Box>boundingBox
+                            Min (Vector) : <Vector>Min
+                                X (Float) : -0.5633
+                                Y (Float) : -0.2118
+                                Z (Float) : 1.0426
+                                W (Float) : 1.0000
+                            Max (Vector) : <Vector>Max
+                                X (Float) : 0.5654
+                                Y (Float) : 0.1555
+                                Z (Float) : 1.7060
+                                W (Float) : 1.0000
+                        drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows,DF_NoDissolves
+                        lightChannels (ELightChannel) : LC_Characters
+                        mesh (handle:CMesh) : characters/models/crowd_npc/redania_guard/torso/model/redanian_halberdier_3.w2mesh
+                CClothComponent #4 (CClothComponent) : d_01_mg__common_px
+                    CClothComponent (CClothComponent) : d_01_mg__common_px
+                        guid (CGUID) : f6d0c600-14ef-47dc-a4e7-81958c724baf
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "d_01_mg__common_px"
+                        graphPositionX (Int16) : 162
+                        graphPositionY (Int16) : 527
+                        boundingBox (Box) : <Box>boundingBox
+                            Min (Vector) : <Vector>Min
+                                X (Float) : -0.3304
+                                Y (Float) : -0.3417
+                                Z (Float) : 0.2196
+                                W (Float) : 1.0000
+                            Max (Vector) : <Vector>Max
+                                X (Float) : 0.3149
+                                Y (Float) : 0.1940
+                                Z (Float) : 1.1327
+                                W (Float) : 1.0000
+                        drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows,DF_NoDissolves
+                        lightChannels (ELightChannel) : LC_Characters
+                        resource (handle:CApexResource) : characters/models/geralt/armor/armor_human__common/d_01_mg__common_px.redcloth
+                        slowStart (Bool) : true
+                        pressure (Float) : -1.0000
+                        maxDistanceScale.Multipliable (Bool) : false
+                        collisionResponseCoefficient (Float) : 0.2000
+                CClothComponent #5 (CClothComponent) : i_02_mg__common_px
+                    CClothComponent (CClothComponent) : i_02_mg__common_px
+                        guid (CGUID) : 216d8013-d0d3-4ced-8f21-96d7c3b091ab
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "i_02_mg__common_px"
+                        graphPositionX (Int16) : 161
+                        graphPositionY (Int16) : 572
+                        boundingBox (Box) : <Box>boundingBox
+                            Min (Vector) : <Vector>Min
+                                X (Float) : 0.0037
+                                Y (Float) : 0.1293
+                                Z (Float) : 0.9270
+                                W (Float) : 1.0000
+                            Max (Vector) : <Vector>Max
+                                X (Float) : 0.0775
+                                Y (Float) : 0.1664
+                                Z (Float) : 1.0742
+                                W (Float) : 1.0000
+                        drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows,DF_NoDissolves
+                        lightChannels (ELightChannel) : LC_Characters
+                        resource (handle:CApexResource) : characters/models/geralt/armor/armor_human__common/i_02_mg__common_px.redcloth
+                        slowStart (Bool) : true
+                        pressure (Float) : -1.0000
+                        maxDistanceScale.Multipliable (Bool) : false
+                        collisionResponseCoefficient (Float) : 0.2000
+                CMeshComponent #6 (CMeshComponent) : collar_01_mg__common
+                    CMeshComponent (CMeshComponent) : collar_01_mg__common
+                        guid (CGUID) : b8505174-9036-40c9-8c3b-22bb26591973
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "collar_01_mg__common"
+                        graphPositionX (Int16) : -323
+                        graphPositionY (Int16) : 215
+                        boundingBox (Box) : <Box>boundingBox
+                            Min (Vector) : <Vector>Min
+                                X (Float) : -0.0975
+                                Y (Float) : -0.1496
+                                Z (Float) : 1.5572
+                                W (Float) : 1.0000
+                            Max (Vector) : <Vector>Max
+                                X (Float) : 0.0898
+                                Y (Float) : 0.0481
+                                Z (Float) : 1.7240
+                                W (Float) : 1.0000
+                        drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows,DF_NoDissolves
+                        lightChannels (ELightChannel) : LC_Characters
+                        mesh (handle:CMesh) : characters/models/geralt/armor/armor_human__common/collar_01_mg__common.w2mesh
+            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+                0 (CEntityTemplateCookedEffect) : quen_lasting_shield_hit
+                    name (CName) : quen_lasting_shield_hit
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 1519 bytes, MD5: dc245d046d639b9e8e51d768ed1c6382
+                        CFXDefinition #0 (CFXDefinition) : quen_lasting_shield_hit
+                            CFXDefinition (CFXDefinition) : quen_lasting_shield_hit
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                length (Float) : 2.8129
+                                loopStart (Float) : 0.4947
+                                loopEnd (Float) : 0.6285
+                                name (CName) : quen_lasting_shield_hit
+                        CFXTrackGroup #1 (CFXTrackGroup) : shader
+                            CFXTrackGroup (CFXTrackGroup) : shader
+                                name (String) : "shader"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 224
+                                    Green (Uint8) : 145
+                                    Blue (Uint8) : 238
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : sd
+                            CFXTrack (CFXTrack) : sd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemMaterialOverride #3
+                                name (String) : "sd"
+                        CFXTrackItemMaterialOverride #3 (CFXTrackItemMaterialOverride) : MaterialOverride
+                            CFXTrackItemMaterialOverride (CFXTrackItemMaterialOverride) : <CFXTrackItemMaterialOverride>CFXTrackItemMaterialOverride
+                                timeBegin (Float) : 0.0029
+                                timeDuration (Float) : 0.2833
+                                buffername (CName) : MaterialOverride
+                                count (CDynamicInt) : 4
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    3 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                material (handle:IMaterial) : fx/signs/quen/ver3/lasting_shield_addmaterial.w2mg
+                                drawOriginal (Bool) : true
+            cookedEffectsVersion (Uint32) : 1
+            Unk1 (Uint32) : 0
+    CItemEntity #1 (CItemEntity) : 
+        CItemEntity (CItemEntity) : 
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDistance (Uint8) : 14
+            entityStaticFlags (EEntityStaticFlags) : 
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CMeshComponent #2
+                1 (ptr:CComponent) : CMeshComponent #3
+                2 (ptr:CComponent) : CMeshComponent #4
+                3 (ptr:CComponent) : CClothComponent #5
+                4 (ptr:CComponent) : CClothComponent #6
+                5 (ptr:CComponent) : CMeshComponent #7
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+    CMeshComponent #2 (CMeshComponent) : i_01_mg__common
+        CMeshComponent (CMeshComponent) : i_01_mg__common
+            guid (CGUID) : bf50c633-1a0d-4e24-9a86-65f21bbd4fb4
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "i_01_mg__common"
+            boundingBox (Box) : <Box>boundingBox
+                Min (Vector) : <Vector>Min
+                    X (Float) : -0.2643
+                    Y (Float) : -0.2336
+                    Z (Float) : 0.9098
+                    W (Float) : 1.0000
+                Max (Vector) : <Vector>Max
+                    X (Float) : 0.1968
+                    Y (Float) : 0.1484
+                    Z (Float) : 1.6460
+                    W (Float) : 1.0000
+            drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows,DF_NoDissolves
+            lightChannels (ELightChannel) : LC_Characters
+            mesh (handle:CMesh) : characters/models/geralt/armor/armor_human__common/i_01_mg__common.w2mesh
+    CMeshComponent #3 (CMeshComponent) : i_02_mg__common
+        CMeshComponent (CMeshComponent) : i_02_mg__common
+            guid (CGUID) : 7c2f309e-95f2-4ed0-9dfd-d4161d85a99a
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "i_02_mg__common"
+            boundingBox (Box) : <Box>boundingBox
+                Min (Vector) : <Vector>Min
+                    X (Float) : 0.1427
+                    Y (Float) : 0.0194
+                    Z (Float) : 0.9427
+                    W (Float) : 1.0000
+                Max (Vector) : <Vector>Max
+                    X (Float) : 0.2347
+                    Y (Float) : 0.0871
+                    Z (Float) : 1.1171
+                    W (Float) : 1.0000
+            drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows,DF_NoDissolves
+            lightChannels (ELightChannel) : LC_Characters
+            mesh (handle:CMesh) : characters/models/geralt/armor/armor_human__common/i_02_mg__common.w2mesh
+    CMeshComponent #4 (CMeshComponent) : redanian_halberdier_3_model
+        CMeshComponent (CMeshComponent) : redanian_halberdier_3_model
+            guid (CGUID) : 6d77495b-7868-43c8-88f2-784162b98f41
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "redanian_halberdier_3_model"
+            boundingBox (Box) : <Box>boundingBox
+                Min (Vector) : <Vector>Min
+                    X (Float) : -0.5633
+                    Y (Float) : -0.2118
+                    Z (Float) : 1.0426
+                    W (Float) : 1.0000
+                Max (Vector) : <Vector>Max
+                    X (Float) : 0.5654
+                    Y (Float) : 0.1555
+                    Z (Float) : 1.7060
+                    W (Float) : 1.0000
+            drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows,DF_NoDissolves
+            lightChannels (ELightChannel) : LC_Characters
+            mesh (handle:CMesh) : characters/models/crowd_npc/redania_guard/torso/model/redanian_halberdier_3.w2mesh
+    CClothComponent #5 (CClothComponent) : d_01_mg__common_px
+        CClothComponent (CClothComponent) : d_01_mg__common_px
+            guid (CGUID) : f6d0c600-14ef-47dc-a4e7-81958c724baf
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "d_01_mg__common_px"
+            boundingBox (Box) : <Box>boundingBox
+                Min (Vector) : <Vector>Min
+                    X (Float) : -0.3304
+                    Y (Float) : -0.3417
+                    Z (Float) : 0.2196
+                    W (Float) : 1.0000
+                Max (Vector) : <Vector>Max
+                    X (Float) : 0.3149
+                    Y (Float) : 0.1940
+                    Z (Float) : 1.1327
+                    W (Float) : 1.0000
+            drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows,DF_NoDissolves
+            lightChannels (ELightChannel) : LC_Characters
+            resource (handle:CApexResource) : characters/models/geralt/armor/armor_human__common/d_01_mg__common_px.redcloth
+            slowStart (Bool) : true
+            pressure (Float) : -1.0000
+            maxDistanceScale.Multipliable (Bool) : false
+            collisionResponseCoefficient (Float) : 0.2000
+    CClothComponent #6 (CClothComponent) : i_02_mg__common_px
+        CClothComponent (CClothComponent) : i_02_mg__common_px
+            guid (CGUID) : 216d8013-d0d3-4ced-8f21-96d7c3b091ab
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "i_02_mg__common_px"
+            boundingBox (Box) : <Box>boundingBox
+                Min (Vector) : <Vector>Min
+                    X (Float) : 0.0037
+                    Y (Float) : 0.1293
+                    Z (Float) : 0.9270
+                    W (Float) : 1.0000
+                Max (Vector) : <Vector>Max
+                    X (Float) : 0.0775
+                    Y (Float) : 0.1664
+                    Z (Float) : 1.0742
+                    W (Float) : 1.0000
+            drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows,DF_NoDissolves
+            lightChannels (ELightChannel) : LC_Characters
+            resource (handle:CApexResource) : characters/models/geralt/armor/armor_human__common/i_02_mg__common_px.redcloth
+            slowStart (Bool) : true
+            pressure (Float) : -1.0000
+            maxDistanceScale.Multipliable (Bool) : false
+            collisionResponseCoefficient (Float) : 0.2000
+    CMeshComponent #7 (CMeshComponent) : collar_01_mg__common
+        CMeshComponent (CMeshComponent) : collar_01_mg__common
+            guid (CGUID) : b8505174-9036-40c9-8c3b-22bb26591973
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "collar_01_mg__common"
+            boundingBox (Box) : <Box>boundingBox
+                Min (Vector) : <Vector>Min
+                    X (Float) : -0.0975
+                    Y (Float) : -0.1496
+                    Z (Float) : 1.5572
+                    W (Float) : 1.0000
+                Max (Vector) : <Vector>Max
+                    X (Float) : 0.0898
+                    Y (Float) : 0.0481
+                    Z (Float) : 1.7240
+                    W (Float) : 1.0000
+            drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows,DF_NoDissolves
+            lightChannels (ELightChannel) : LC_Characters
+            mesh (handle:CMesh) : characters/models/geralt/armor/armor_human__common/collar_01_mg__common.w2mesh
