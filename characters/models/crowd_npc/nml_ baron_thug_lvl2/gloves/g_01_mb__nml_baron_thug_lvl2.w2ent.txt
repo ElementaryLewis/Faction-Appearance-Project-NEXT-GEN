@@ -34,10 +34,8 @@
                                 Y (Float) : 0.3440
                                 Z (Float) : 1.4388
                                 W (Float) : 1.0000
-                        drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows,DF_ForceHighestLOD
+                        drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows
                         lightChannels (ELightChannel) : LC_Characters
-                        forceLODLevel (Int32) : 0
-                        forceAutoHideDistance (Uint16) : 300
                         mesh (handle:CMesh) : characters/models/crowd_npc/nml_ baron_thug_lvl2/gloves/model/g_01_mb__nml_baron_thug_lvl2.w2mesh
             cookedEffectsVersion (Uint32) : 1
             Unk1 (Uint32) : 0
@@ -69,8 +67,6 @@
                     Y (Float) : 0.3440
                     Z (Float) : 1.4388
                     W (Float) : 1.0000
-            drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows,DF_ForceHighestLOD
+            drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows
             lightChannels (ELightChannel) : LC_Characters
-            forceLODLevel (Int32) : 0
-            forceAutoHideDistance (Uint16) : 300
             mesh (handle:CMesh) : characters/models/crowd_npc/nml_ baron_thug_lvl2/gloves/model/g_01_mb__nml_baron_thug_lvl2.w2mesh

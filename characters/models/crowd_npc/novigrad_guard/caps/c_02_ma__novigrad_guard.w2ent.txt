@@ -40,7 +40,7 @@
                                 W (Float) : 1.0000
                         drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows
                         lightChannels (ELightChannel) : LC_Characters
-                        mesh (handle:CMesh) : characters/models/crowd_npc/redania_guard/caps/model/redania_guard_cap.w2mesh
+                        mesh (handle:CMesh) : characters/models/crowd_npc/novigrad_guard/caps/model/c_02_ma__novigrad_guard.w2mesh
             cookedEffectsVersion (Uint32) : 1
             Unk1 (Uint32) : 0
     CWitcherSword #1 (CWitcherSword) : 
@@ -74,4 +74,4 @@
                     W (Float) : 1.0000
             drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows
             lightChannels (ELightChannel) : LC_Characters
-            mesh (handle:CMesh) : characters/models/crowd_npc/redania_guard/caps/model/redania_guard_cap.w2mesh
+            mesh (handle:CMesh) : characters/models/crowd_npc/novigrad_guard/caps/model/c_02_ma__novigrad_guard.w2mesh
